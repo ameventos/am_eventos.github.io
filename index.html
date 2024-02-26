@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AM Eventos</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <section>
+        <div id="logo">
+            <img src="./img/logo.jpeg" alt="logo">
+        </div>
+        <p>AM Eventos es una empresa que se dedica a la organización de eventos, desde bodas, cumpleaños, bautizos, entre otros. Contamos con un equipo de profesionales que se encargará de que tu evento sea inolvidable.</p>
+        <div id="Instagram-button" onclick="redirectTo('https://www.instagram.com/alemartin_eventos/')">
+            <div class="logo-link">
+                <img src="./img/instagram.png" alt="Instagram">
+            </div>
+            Instagram
+        </div>
+        <div id="Facebook-button" onclick="redirectTo('https://www.facebook.com/alejandramartin.tortasreposteria')">
+            <div class="logo-link">
+                <img src="./img/facebook.png" alt="Facebook">
+            </div>
+            Facebook
+        </div>
+        <script>
+            function redirectTo(url) {
+                window.open(url, '_blank');
+            }
+        </script>
+    </section>
+</body>
+</html>
